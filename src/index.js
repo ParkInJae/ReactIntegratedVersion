@@ -11,6 +11,7 @@ import CommentList from './chapter05/CommentList';
 import NotificationList from './chapter06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const root2 = ReactDOM.createRoot(document.getElementById('root'));
 /* 
 setInterval(() =>{
   root.render(
@@ -29,7 +30,7 @@ setInterval(() =>{
   );
 },1000);
 */
-root.render(
+root2.render(
   <React.StrictMode>
     <NotificationList/>
   </React.StrictMode>

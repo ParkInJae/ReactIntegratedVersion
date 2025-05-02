@@ -14,6 +14,12 @@ const reservedNotifications = [
         message : "이제 곧 미팅이 시작됩니다.",
 
     },
+    {
+        message : "NotificationList.jsx에 존재하는 reservedNotificatinons의 메시지들이 할당 됩니다.",
+
+    },
+
+    
 
 ];
 
